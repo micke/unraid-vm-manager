@@ -4,6 +4,9 @@ This is a two part app. Code in the `arduino` folder is supposed to be compiled
 and run on an Arduino. Code in the `server-app` is supposed to bu run on the
 Unraid server in a docker container.
 
+![](https://github.com/micke/unraid-vm-manager/blob/master/docs/1.jpg)
+![](https://github.com/micke/unraid-vm-manager/blob/master/docs/2.jpg)
+
 1. Install the `Virtual Machine Wake On Lan` plugin on your unraid server.  
   __Note__: You might have to enable the plugin in the VM settings page in
   Unraid. Turn onCheck "Advanced" mode.
