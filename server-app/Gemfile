@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+gem "sinatra", "~> 2.0"
+gem "ruby-libvirt", "~> 0.7", require: "libvirt"
+gem "thin", "~> 1.7"
