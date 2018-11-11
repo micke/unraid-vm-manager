@@ -18,3 +18,6 @@ Unraid server in a docker container.
   I'm sorry but I currently don't have time to draw a schematic.
 3. Install the accompanying docker container on your Unraid server.
   ![](https://github.com/micke/unraid-vm-manager/blob/master/docs/container.png)
+4. __BONUS!__ The design for the housing can be found in the lasercut.pdf file.  
+  Use a lasercutting service to cut your own little box to house the
+   controller in. I used https://cotter.dk
