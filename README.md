@@ -5,7 +5,7 @@ and run on an Arduino. Code in the `server-app` is supposed to bu run on the
 Unraid server in a docker container.
 
 1. Install the `Virtual Machine Wake On Lan` plugin on your unraid server.
-  ![](https://github.com/micke/unraid-vm-manager/blob/master/docs/wake on lan.png)
+  ![](https://github.com/micke/unraid-vm-manager/blob/master/docs/wake%20on%20lan.png)
 2. Edit `arduino/config.h` and compile and run on a D1 mini.
   ID is the ID the VM has on your Unraid server.  
   You'll have to figure out how the pins should be hooked up and configured.  
