@@ -29,11 +29,11 @@ For all like me that are new-ish to Arduino, some advice to get this project rol
 * Then load the files via "Tools > Board", look for esp8266 (I am on a different machine right now without the IDE, so the labels might be a bit off).
 * Select this board afterwards: "LOLIN(WEMOS)D1 R2 & mini"
 
-Additionally, you will need two libraries that can be found on github and are required by the project (I don't know if the author used those, but they work for me and my IDE install was fresh):
+Additionally, you will need two libraries that can be found on github and are required by the project.
 
-https://github.com/koenieee/WakeOnLan-ESP8266
-https://github.com/JoaoLopesF/RemoteDebug
-(unzip and drop into the libraries folder)
+* https://github.com/koenieee/WakeOnLan-ESP8266
+* https://github.com/JoaoLopesF/RemoteDebug
+* (unzip and drop into the libraries folder)
 
 When editing the config file, you only need to edit the first 4 lines of each VM, they are as follows:
 
