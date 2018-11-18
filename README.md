@@ -25,9 +25,9 @@ Unraid server in a docker container.
 ## [Notes by /u/RoadrageWorker on reddit](https://www.reddit.com/r/unRAID/comments/9wgh5m/just_open_sourced_physical_vm_controller_using_d1/e9qlvxm)
 For all like me that are new-ish to Arduino, some advice to get this project rolling:
 
-When using the D1 mini (and that's what it is made for), you need the board manager files for the Arduino IDE, insert http://arduino.esp8266.com/stable/package_esp8266com_index.json into the "Additional Board Manager URL" field.
-Then load the files via "Tools > Board", look for esp8266 (I am on a different machine right now without the IDE, so the labels might be a bit off).
-Select this board afterwards: "LOLIN(WEMOS)D1 R2 & mini"
+* When using the D1 mini (and that's what it is made for), you need the board manager files for the Arduino IDE, insert http://arduino.esp8266.com/stable/package_esp8266com_index.json into the "Additional Board Manager URL" field.
+* Then load the files via "Tools > Board", look for esp8266 (I am on a different machine right now without the IDE, so the labels might be a bit off).
+* Select this board afterwards: "LOLIN(WEMOS)D1 R2 & mini"
 
 Additionally, you will need two libraries that can be found on github and are required by the project (I don't know if the author used those, but they work for me and my IDE install was fresh):
 
@@ -37,10 +37,11 @@ https://github.com/JoaoLopesF/RemoteDebug
 
 When editing the config file, you only need to edit the first 4 lines of each VM, they are as follows:
 
-MAC (has to be unique)
-UUID
-switch pin
-LED pin
+* MAC (has to be unique)
+* UUID
+* switch pin
+* LED pin
+
 MAC and UUID can be found in the unRAID VM manager, advanced view
 
 This is a sample layout for two VMs including a safety for the destroy function by using two buttons:
