@@ -22,7 +22,7 @@ Unraid server in a docker container.
   Use a lasercutting service to cut your own little box to house the
    controller in. I used https://cotter.dk
 
-## Notes by /u/RoadrageWorker on reddit (https://www.reddit.com/r/unRAID/comments/9wgh5m/just_open_sourced_physical_vm_controller_using_d1/e9qlvxm)
+## [Notes by /u/RoadrageWorker on reddit](https://www.reddit.com/r/unRAID/comments/9wgh5m/just_open_sourced_physical_vm_controller_using_d1/e9qlvxm)
 For all like me that are new-ish to Arduino, some advice to get this project rolling:
 
 When using the D1 mini (and that's what it is made for), you need the board manager files for the Arduino IDE, insert http://arduino.esp8266.com/stable/package_esp8266com_index.json into the "Additional Board Manager URL" field.
@@ -34,7 +34,6 @@ Additionally, you will need two libraries that can be found on github and are re
 https://github.com/koenieee/WakeOnLan-ESP8266
 https://github.com/JoaoLopesF/RemoteDebug
 (unzip and drop into the libraries folder)
-​
 
 When editing the config file, you only need to edit the first 4 lines of each VM, they are as follows:
 
