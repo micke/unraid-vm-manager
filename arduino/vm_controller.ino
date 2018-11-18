@@ -172,7 +172,7 @@ void syncVMStatus() {
 
     for (int thisVm = 0; thisVm < numberOfVMs; thisVm++) {
       VM &vm = vms[thisVm];
-      if (payload.substring(0) == vm.uid) {
+      if (payload.indexOf(vm.uid)>=0) {
         vm.running = true;
         vm.starting = false;
       } else {
